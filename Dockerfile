@@ -68,5 +68,6 @@ ENV VERSION="10l"
 ENV RAM_SIZE="8G"
 ENV CPU_CORES="4"
 ENV DISK_SIZE="256G"
+ENV AUDIO="Y"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
